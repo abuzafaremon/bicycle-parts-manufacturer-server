@@ -10,9 +10,9 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-  res.send('Hello From Doctors Portal!')
+  res.send('<h1>Hello From Bicycle Parts Manufacturer!</h1>')
 })
 
 app.listen(port, () => {
-  console.log(`Doctors Portal listening on port ${port}`)
+  console.log(`Bicycle Parts Manufacturer listening on port ${port}`)
 })
